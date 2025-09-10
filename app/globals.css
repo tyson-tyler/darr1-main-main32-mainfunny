@@ -1,0 +1,19 @@
+
+@import "tailwindcss";
+
+@import "tw-animate-css";
+
+body {
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.contact-bg {
+  background-image: url("https://res.cloudinary.com/dblf5n0yn/image/upload/v1756629916/snvps2nnmvm5tpplugal.png");
+  background-size: cover;
+  background-position: center;
+}
