@@ -71,20 +71,7 @@ const page = () => {
 
         <div className="flex justify-center flex-col gap-5 items-center w-[70%]">
           <SignWithGoogleComponent />
-          <button className="h-[50px] flex justify-center items-center gap-3 bg-white hover:bg-gray-200 text-black rounded-4xl cursor-pointer w-full">
-            <Image src={Facebook} alt="GitHub Light" width={20} height={20} />
-            <span>Continue with Facebook</span>
-          </button>
-          <button className="h-[50px] bg-rose-500 hover:bg-rose-600 flex justify-center items-center gap-3 rounded-4xl cursor-pointer w-full">
-            <Image
-              src={Instagram}
-              width={20}
-              height={20}
-              alt="hello"
-              className="text-black"
-            />
-            Continue with Instagram
-          </button>
+       
         </div>
 
         <div className="mt-[40px] w-[340px] text-center text-sm">
