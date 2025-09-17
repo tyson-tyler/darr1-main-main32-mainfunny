@@ -54,7 +54,7 @@ export default function ContactForm() {
 Email: ${formData.user_email} 
 Phone: ${formData.phone} 
 Message: ${formData.message}`;
-  const whatsappLink = `https://wa.me/9990236468?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/919990236468?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
